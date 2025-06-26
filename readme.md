@@ -3,6 +3,8 @@
 ## 该项目涉及机器学习模型预处理和训练、小程序开发、后端Flask开发、ai大模型调用、数据展示等内容，可在不同课程上使用。（所有资源免费开源，不需要付费，但是请点个star）
 
 
+![image](https://github.com/user-attachments/assets/2ce08852-6997-4af0-b5f8-b89867ed01f1)
+![image](https://github.com/user-attachments/assets/2ce08852-6997-4af0-b5f8-b89867ed01f1)
 
 ## 开发工具
 
