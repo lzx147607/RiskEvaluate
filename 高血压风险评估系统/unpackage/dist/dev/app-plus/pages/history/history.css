@@ -1,0 +1,124 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  padding: 0.625rem;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+.container .header {
+  padding: 0.9375rem 0;
+  text-align: center;
+}
+.container .header .title {
+  font-size: 1.125rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.container .main-scroll {
+  padding: 0.625rem 0;
+  box-sizing: content-box;
+  /* 保证padding影响布局 */
+}
+.container .chart-container {
+  position: relative;
+  margin: 0.625rem 0.78125rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+}
+.container .chart-container .chart-scroll {
+  height: 10rem;
+}
+.container .tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+.container .tooltip::after {
+  content: "";
+  position: absolute;
+  left: -0.25rem;
+  top: 50%;
+  border: 0.25rem solid transparent;
+  border-right-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%);
+}
+.container .action-btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent 0%, white 30%);
+  padding: 0.625rem 0.78125rem;
+  z-index: 100;
+  /* 新增间距控制 */
+  box-shadow: 0 -0.125rem 0.375rem rgba(0, 0, 0, 0.05);
+}
+.container .action-btns .btn {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  color: white;
+  background: #1aad19;
+  border-radius: 1.40625rem;
+  margin-bottom: 0.3125rem;
+  transition: opacity 0.3s;
+}
+.container .action-btns .btn:active {
+  opacity: 0.8;
+}
+.container .loading-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.container .loading-mask .loading-content {
+  text-align: center;
+}
+.container .loading-mask .loading-content .loading-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.container .loading-mask .loading-content .loading-text {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.625rem;
+}

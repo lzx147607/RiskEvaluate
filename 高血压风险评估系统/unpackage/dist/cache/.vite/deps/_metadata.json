@@ -1,0 +1,34 @@
+{
+  "hash": "2b4b6ab2",
+  "configHash": "9d62a268",
+  "lockfileHash": "f9d40488",
+  "browserHash": "fe1bbf02",
+  "optimized": {
+    "@qiun/ucharts/": {
+      "src": "../../../../../node_modules/@qiun/ucharts/u-charts.js",
+      "file": "@qiun_ucharts_.js",
+      "fileHash": "647f0962",
+      "needsInterop": false
+    },
+    "@qiun/ucharts": {
+      "src": "../../../../../node_modules/@qiun/ucharts/u-charts.js",
+      "file": "@qiun_ucharts.js",
+      "fileHash": "272828c7",
+      "needsInterop": false
+    },
+    "echarts": {
+      "src": "../../../../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "408785f2",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RQRXGQHJ": {
+      "file": "chunk-RQRXGQHJ.js"
+    },
+    "chunk-CSAU5B4Q": {
+      "file": "chunk-CSAU5B4Q.js"
+    }
+  }
+}

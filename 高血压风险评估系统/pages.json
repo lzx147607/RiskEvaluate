@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path" : "pages/test/test",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "测试页面"
+		// 	}
+		// },
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "高血压风险预测系统"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册用户"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "高血压风险预测系统"
+			}
+		},
+		{
+			"path": "pages/predict/predict",
+			"style": {
+				"navigationBarTitleText": "预测风险"
+			}
+		},
+		{
+			"path" : "pages/result/result",
+			"style" : 
+			{
+				"navigationBarTitleText" : "高血压风险预测系统"
+			}
+		},
+		{
+			"path" : "pages/components/components",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/history/history",
+			"style" : 
+			{
+				"navigationBarTitleText" : "健康历史"
+			}
+		},
+		{
+			"path" : "pages/advice/advice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "医疗助手"
+			}
+		},
+		{
+			"path" : "pages/analysis/analysis",
+			"style" : 
+			{
+				"navigationBarTitleText" : "高血压数据分析"
+			},
+			"usingComponents": {
+			          "qiun-data-charts": "@qiun/ucharts",
+					  "ec-canvas": "@/components/ec-canvas/ec-canvas"
+			        }
+		},
+		{
+			"path" : "pages/wordcloud/wordcloud",
+			"style" : 
+			{
+				"navigationBarTitleText" : "词云图"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+	    "autoscan": true,
+	    "custom": {
+	      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	    }
+	  }
+}
